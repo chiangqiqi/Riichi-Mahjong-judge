@@ -1,0 +1,60 @@
+{
+  "requests": [
+    {
+      "state": "0 0 0"
+    },
+    {
+      "doraIndicators": "T6",
+      "handTiles": "1 W9 W3 W6 W2 W5 B6 B1 B1 T2 B8 W1 T9 W1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T6",
+      "state": "2 Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T6",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY T9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T6",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T6",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T6",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T6",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY W9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T6",
+      "state": "3 3 DRAW",
+      "validact": null
+    }
+  ],
+  "responses": [
+    "PASS",
+    "PASS",
+    "PLAY T9",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ]
+}

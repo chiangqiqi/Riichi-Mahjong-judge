@@ -1,0 +1,469 @@
+{
+  "requests": [
+    {
+      "state": "0 0 0"
+    },
+    {
+      "doraIndicators": "W8",
+      "handTiles": "1 T8 B3 T8 T2 W5 T5 W1 W4 B2 Z6 T6 T3 T1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 B3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY B3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY W1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY B1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 W0",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY T3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z2",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY Z3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 T6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY W4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY T9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY Z7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY T1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 B4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY T8",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 CHI T8 T6 T7 Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY W1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY B9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 Z7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY T2",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY B9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY W1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 W9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": true,
+      "state": "3 0 PLAY W9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY B1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": true,
+      "state": "3 2 PLAY Z1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 T4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY T9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": true,
+      "state": "3 2 PLAY Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY B9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 Z4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY W5",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY B3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 CHI B3 B2 B4 Z3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "2 T9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY T6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY T9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": true,
+      "state": "3 2 PLAY Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "W8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY T5",
+      "validact": "CHI"
+    }
+  ],
+  "responses": [
+    "PASS",
+    "PASS",
+    "PLAY B3",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY T3",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY W4",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY T8",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY T2",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY W9",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY Z6",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY W5",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY T6",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ]
+}

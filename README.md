@@ -16,3 +16,8 @@ g++ --std=c++11 Mahjong2.cpp Yizhong.cpp Player.cpp Tools.cpp -ljsoncpp -o mahjo
 ./mahjong
 ```
 
+## TODO
+1. 吃牌的计算有问题，当手牌中有多余牌时无法识别
+2. 可以用强化学习的方式来做一下打牌
+
+

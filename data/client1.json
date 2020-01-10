@@ -1,0 +1,616 @@
+{
+  "requests": [
+    {
+      "state": "0 0 0"
+    },
+    {
+      "doraIndicators": "T8",
+      "handTiles": "1 W5 B8 W0 Z7 B5 B6 W6 T4 Z3 W9 Z5 W7 W8",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 W4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY B8",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY T1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY Z7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY W9",
+      "validact": "CHI"
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 W6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY Z5",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY B9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY T1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 B5",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY T4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY Z4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 T8",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY B6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": true,
+      "state": "3 1 PLAY W1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY Z7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z2",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 T0",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY B5",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 CHI B5 B4 B6 W9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY W2",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY T9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 W8",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY T0",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 PENG T0 T5 T5 B7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 B7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY W9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY T7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 PENG T7 T7 T7 W8",
+      "validact": "PENG"
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY W5",
+      "validact": "PENG"
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 0 PENG W5 W0 W5 T8",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z2",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY T3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY B1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 T9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY B5",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 PENG B5 B0 B5 T6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY T1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 Z5",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY Z7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": true,
+      "state": "3 1 PLAY Z3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": true,
+      "state": "3 2 PLAY Z5",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 Z1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY B7",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z2",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 2 PLAY W3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 PENG W3 W3 W3 W6",
+      "validact": "CHI,PENG"
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 0 CHI W6 W7 W8 T9",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z4",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": true,
+      "state": "3 2 PLAY Z2",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 3 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 3 PLAY B1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "2 T2",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 0 PLAY Z3",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 1 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": false,
+      "state": "3 1 PLAY Z6",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "state": "3 2 DRAW",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T8",
+      "playDrawnTile": true,
+      "state": "3 2 PLAY T9",
+      "validact": null
+    }
+  ],
+  "responses": [
+    "PASS",
+    "PASS",
+    "PLAY B8", 
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY Z5",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY T4",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY B6",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY B5",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY T0",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY W9",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PENG W5 W0 W5 T8",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY B5",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY Z7",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY B7",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "CHI W6 W7 W8 T9",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PLAY Z3",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ]
+}

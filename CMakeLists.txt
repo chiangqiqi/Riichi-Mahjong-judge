@@ -15,6 +15,13 @@ include_directories(
 )
 include_directories(/usr/local/opt/llvm/include/c++/v1/)
 
+# to speed things up
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O2")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
+
+add_executable(client client.cc)
+target_link_libraries(client ${JSONCPP_LIBRARIES})
+
 file(GLOB MJ_SRC "src/*.h" "src/*.cpp")
 find_package(Boost REQUIRED)
 if(Boost_FOUND)
@@ -26,4 +33,5 @@ if(Boost_FOUND)
     add_executable(mahjong ${MJ_SRC})
     target_link_libraries (mahjong ${Boost_LIBRARIES})
     target_link_libraries(mahjong ${JSONCPP_LIBRARIES})
+
 endif()

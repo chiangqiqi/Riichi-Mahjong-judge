@@ -1,0 +1,22 @@
+{
+  "requests": [
+    {
+      "state": "0 0 0"
+    },
+    {
+      "doraIndicators": "T6",
+      "handTiles": "1 W9 W3 W6 W2 W5 B6 B1 B1 T2 B8 W1 T9 W1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "T6",
+      "state": "2 Z6",
+      "validact": null
+    }
+  ],
+  "responses": [
+    "PASS",
+    "PASS",
+    "PLAY T9"
+  ]
+}

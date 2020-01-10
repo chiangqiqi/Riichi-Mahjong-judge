@@ -1,0 +1,21 @@
+{
+  "requests": [
+    {
+      "state": "0 0 0"
+    },
+    {
+      "doraIndicators": "B1",
+      "handTiles": "1 W9 W1 B1 T9 Z6 B9 W8 W7 B7 Z3 Z4 Z5 W1",
+      "validact": null
+    },
+    {
+      "doraIndicators": "B1",
+      "state": "2 W7",
+      "validact": null
+    }
+  ],
+  "responses": [
+    "PASS",
+    "PASS"
+  ]
+}

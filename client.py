@@ -4,10 +4,15 @@ import sys
 import json
 import fileinput
 import random
+import numpy as np
+import functools
 
 from enum import Enum
 from collections import namedtuple
 from typing import List
+
+TILE_TYPE = "BTWZ"
+TILE_IDX_DICT = {"B": 0, "T": 1, "W": 2, "Z": 3}
 
 def eprint(*args, **kwargs):
     """A simple function to eprint data to stderr"""
@@ -27,6 +32,16 @@ def tiles_to_str(tiles):
 
 def is_same_tile(t1: Tile, t2: Tile) -> bool:
     return t1.type == t2.type and t1.num == t2.num
+
+def tile_to_pos(t: Tile):
+    return TILE_IDX_DICT[t.type], t.num
+
+def tiles_to_numpy(tiles: List[Tile]):
+    res = np.zeros((4, 10), np.int8)
+    for t in tiles:
+        x,y = tile_to_pos(t)
+        res[x,y] += 1
+    return res
 
 def parse_tile(tile_str: str):
     if isinstance(tile_str, Tile):
@@ -278,8 +293,6 @@ class Player(PlayerPublic):
 
     def witness(self, player_idx: int, action: Action):
         p = self._players[player_idx]
-        # import pdb; pdb.set_trace()
-        # try:
         if isinstance(p, Player):
             eprint(p._hand_tiles._tiles)
         eprint(action)
@@ -298,9 +311,6 @@ class Player(PlayerPublic):
         """选择一张牌打出
         如果有副露应该一般不能打出副露中出现的牌
         """
-
-        for pos,mz in find_mianzis(tiles, 0, len(tiles)):
-            del tiles[pos[0]:pos[1]]
         return random.choice(tiles)
 
     def legal_actions(self):
@@ -347,7 +357,6 @@ class Player(PlayerPublic):
 
         W3 W1 W2,
 
-        TODO 如果和牌了返回和牌
         """
         hand_tiles_num = len(hand_tiles)
         if fulu_type == "HU":
@@ -366,18 +375,18 @@ class Player(PlayerPublic):
             # 面子需要是包含当前这张牌
             # TODO 需要考虑4张的杠子
             # 需要考虑边缘因素
-            mianzis = find_mianzis(hand_tiles_copy, insert_pos-2, insert_pos+1)
+            hand_tiles_copy, mianzis = find_mianzis(hand_tiles_copy, insert_pos-2, insert_pos+1)
             if len(mianzis) == 0:
                 return PassAction()
 
-            pos, selected_mianzi = mianzis[0]
+            selected_mianzi = mianzis[0]
 
             # TODO 这个地方写的有点丑
             # 应该把吃牌之类的拿到的别人的牌放到一个副露的最前面
-            selected_mianzi._tiles.remove(played_tile)
-            selected_mianzi._tiles = [played_tile] + selected_mianzi._tiles
+            # selected_mianzi._tiles.remove(played_tile)
+            # selected_mianzi._tiles = [played_tile] + selected_mianzi._tiles
             # play a tile from left tiles
-            del hand_tiles_copy[pos[0]:pos[1]]
+            # del hand_tiles_copy[pos[0]:pos[1]]
 
             should_play = self.select_play_tile(hand_tiles_copy)
             if fulu_type == "CHI":
@@ -438,34 +447,45 @@ def generate_mianzi(tiles):
     elif tiles_num == 4:
         # 四张牌只能组成 杠子
         t1 = tiles[0]
-        if all(lambda x: is_same_tile(x,t1), tiles):
+        if all(map(lambda x: is_same_tile(x,t1), tiles)):
             return Gangzi(tiles)
 
 def find_mianzis(tiles_list, idx1, idx2):
     """给一个 tiles 的列表，返回一个去掉所有面子的列表
     需要输入的数组是排好序的
+
+    TODO 现在的实现有问题，还是需要做成 numpy
     """
     to_be_removed = []
     mianzis = []
     begin_pos = idx1
-    while begin_pos < idx2:
-        end_pos = begin_pos + 3
-        if begin_pos < 0:
-            continue
-        if end_pos > len(tiles_list):
-            break
-        m = generate_mianzi(tiles_list[begin_pos:end_pos])
-
-        if m is not None:
-            # 还需要标记位置
-            # 格式是 (2,5), Kezi(W1,W2,W3)
-            mianzis.append( ((begin_pos,end_pos),m) )
-            begin_pos = end_pos
+    d = {} # tiles kept by property
+    for t in tiles_list:
+        str_t = (t.type, t.num)
+        if str_t in d:
+            d[str_t].append(t)
         else:
-            begin_pos += 1
+            d[str_t] = [t]
 
-    # pos, selected_mianzi = mianzis[0]
-    return mianzis
+    arr = tiles_to_numpy(tiles_list)
+    for i,C in enumerate(TILE_TYPE):
+        for j in range(10):
+            current_tile =  (TILE_TYPE[i], j)
+            if arr[i,j] >= 3:
+                # remove 3 tiles from
+                mianzi_tiles = d[(TILE_TYPE[i], j)][-3:]
+                del d[current_tile][-3:]
+                mianzis.append(generate_mianzi(mianzi_tiles))
+                arr[i,j] -= 3
+
+            elif j + 2 <= 9 and (arr[i, j:j+3] >= 1).all():
+                t1 = d[current_tile].pop()
+                t2 = d[(TILE_TYPE[i], j+1)].pop()
+                t3 = d[(TILE_TYPE[i], j+2)].pop()
+                mianzis.append(generate_mianzi([t1, t2, t3]))
+                arr[i, j:j+3] -= 1
+    left_tiles = functools.reduce(lambda x,y:x+y, d.values() )
+    return left_tiles, mianzis
 
 def main():
     # while 1:
